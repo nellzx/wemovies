@@ -1,0 +1,85 @@
+body {
+    margin: 0;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #302c44;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(211, 211, 211);
+}
+
+.cart-button {
+    margin-top: 5px;
+    display: flex;
+}
+
+.cart-image {
+    height: 45px;
+    margin-top: 12px;
+}
+
+.movie-cover {
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.movie-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    column-gap: 10px;
+    row-gap: 20px;
+    padding: 0;
+}
+
+.movies {
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 310px;
+    width: 250px;
+    padding: 0;
+}
+
+.add-button, .back-button{
+    background-color: rgb(37, 124, 255);
+    color: rgb(233, 233, 233);
+    outline: none;
+    border: none;
+    margin: 0 auto;
+    width: 80%;
+    border-radius: 8px;
+    font-size: 15px;
+    padding: 15px;
+}
+
+.counter{
+    color: rgb(152, 159, 173);;
+}
+
+.table{
+    width: 80%;
+    margin: 0 auto;
+    height: auto;
+    padding: 50px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+.cart-item{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#in-de-button{
+    border-radius: 50px;
+    color: rgb(90, 130, 255);
+    border: solid 2px rgb(90, 130, 255);
+    outline: none;
+} 
