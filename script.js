@@ -78,7 +78,7 @@ document.addEventListener("DOMContentLoaded", () => {
             movieDiv.innerHTML = `
                 <div style="display: flex;">
                     <div style="display: flex;">
-                        <img src="${movie.cover}" style="height: 200px; margin-right: 20px">
+                        <img src="${movie.cover}" style="height: 170px; margin-right: 20px">
                         <p style="margin-top: 90px; margin-right: 20px">${movie.title}</p>
                     </div>
                     <div style="margin-top: 90px">
@@ -87,7 +87,7 @@ document.addEventListener("DOMContentLoaded", () => {
                         <button id="in-de-button" class="increase" data-id="${id}">+</button>
                     </div>
                 </div>
-                <p style="margin-top: 90px">Subtotal: R$ ${moviePrice.toFixed(2)}</p>
+                <p style="margin-top: 90px">Subtotal: <br> R$ ${moviePrice.toFixed(2)}</p>
             `;
             buyTable.appendChild(movieDiv);
         });
