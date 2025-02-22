@@ -84,12 +84,3 @@ body {
     outline: none;
 } 
 
-@media screen and (max-width: 1500px){
-    body{ 
-        margin-left: 5px;
-        margin-right: 5px;
-    }
-    .table{
-        padding: 20px 10px;
-    }
-}
